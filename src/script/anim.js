@@ -2,7 +2,7 @@
         document.getElementById('downloadCV').addEventListener('click', function(e) {
             e.preventDefault();
             // Aqui você pode adicionar a lógica para baixar o CV
-            alert('CV baixado com sucesso! Em uma implementação real, isso baixaria o arquivo do CV.');
+            alert('CV baixado com sucesso!//EM BREVE.');
         });
 
         // Carrossel de Projetos
