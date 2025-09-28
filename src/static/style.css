@@ -545,6 +545,17 @@
             }
         }
         
+        /* Efeito de máquina de escrever */
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+        
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: var(--primary) }
+        }
+        
         
         /* Responsividade */
         @media (max-width: 768px) {
